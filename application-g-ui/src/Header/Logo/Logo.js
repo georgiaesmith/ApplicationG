@@ -3,7 +3,7 @@ import './Logo.css';
 function Logo() {
   return (
     <div className="Logo">
-      <img src="./Logo/FitnessLogo.png"></img>
+      <img src={require('./FitnessLogo.png')} />
     </div>
   );
 }
